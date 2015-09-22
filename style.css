@@ -67,16 +67,15 @@ h1, h2, h3, h4, h5, h6, p, a{
     border-bottom: 2px solid transparent;
 }
 
-.masthead-nav > li > a:hover,
-.masthead-nav > li > a:focus {
+.masthead-nav > li > a:hover {
     background-color: transparent;
     border-bottom-color: #fff;
     border-bottom-color: rgba(0,0,0,.25);
 }
 
 .masthead-nav > .active > a,
-.masthead-nav > .active > a:hover,
-.masthead-nav > .active > a:focus {
+.masthead-nav > .active > a:hover
+{
     color: #000;
     border-bottom-color: #000;
 }
