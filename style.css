@@ -17,6 +17,10 @@
     margin: 30px 0;
 }
 
+html {
+    overflow-y:scroll;
+}
+
 body{
     padding-top: 20px;
     padding-bottom: 20px;
