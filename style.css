@@ -75,8 +75,8 @@ h1, h2, h3, h4, h5, h6, p, a{
 }
 
 .masthead-nav > .active > a,
-.masthead-nav > .active > a:hover,
-.masthead-nav > .active > a:focus {
+.masthead-nav > .active > a:hover
+{
     color: #000;
     border-bottom-color: #000;
 }
