@@ -160,3 +160,8 @@ td, th {
 .left-buffer {
     padding:0px 25px;
 }
+
+a.deco-none {
+    color: inherit;
+    text-decoration:none;
+}
