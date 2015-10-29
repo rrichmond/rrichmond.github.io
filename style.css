@@ -211,8 +211,6 @@ a.deco-none {
         font-weight: bold;
     }
     
-    /*
-        Label the data
-   */
+    /* Label the data */
     #no-more-tables td:before { content: attr(data-title); }
 }
