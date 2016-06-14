@@ -36,7 +36,23 @@ h1, h2, h3, h4, h5, h6, p, a{
     font-family:Helvetica;
 }
 
-a {
+/* unvisited link */
+a:link {
+    color: rgb(88,15,139);
+}
+
+/* visited link */
+a:visited {
+    color: rgb(88,15,139);
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(88,15,139);
+}
+
+/* selected link */
+a:active {
     color: rgb(88,15,139);
 }
 
