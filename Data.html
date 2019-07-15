@@ -13,7 +13,7 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon.png">
 
-    <title>CV - Robert J. Richmond</title>
+    <title>Data - Robert J. Richmond</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -34,22 +34,43 @@
           <nav>
             <ul class="nav masthead-nav">
 	      <li><a href="index.html">Home</a></li>
-	      <li class="active"><a href="#">CV</a></li>
-	      <li><a href="Data.html">Data</a></li>	      
+	      <li><a href="CV.html">CV</a></li>
+	      <li class="active"><a href="#">Data</a></li>	      
             </ul>
           </nav>
         </div>
       </div>
 
-      {% include_relative CV_Information.html %}
-      
       <div class="row">
 	<div class="col-sm-12">
-	  {% include_relative RobertRichmond.html %}
-	</div> <!-- end column -->
-      </div> <!-- end row -->
+	  <div class="panel">
+	    <div class="panel-heading">
+	      <h5>Trade Network Centrality Data</h5>
+	    </div>
+	    <div class="panel-body">
+	      <p>
+		<a href="./Data/Richmond_Centrality.xlsx">Excel Dataset</a>
+		<br />
+		<br />
+		There are two tabs: one that constructs centrality
+		with a Euro area aggregate and one that does
+		not. Details on data construction can be found in
+		the <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/jofi.12755">paper</a>.
+		<br />
+		<br />
+		<b>Please cite the following if you use this data:</b>
+		<br />
+		<br />		
+		Richmond, Robert J. "Trade network centrality and
+		currency risk premia." The Journal of Finance 74.3
+		(2019): 1315-1361.		
+	      </p>
+	    </div>
+	  </div>
+	</div>
+      </div>
       
-    </div> <!-- end container -->
+    </div>
 </body>
 
 </html>
