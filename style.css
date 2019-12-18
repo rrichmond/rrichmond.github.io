@@ -235,9 +235,15 @@ a.deco-none {
     #no-more-tables td:before { content: attr(data-title); }
 }
 
-@media print {
-  a[href]:after {
-    content: none !important;
-  }
-}
+/* @media print { */
+/*   a[href]:after { */
+/*     content: none !important; */
+/*   } */
+/* } */
 
+@media print {
+   a[href]:after {
+      display: none;
+      visibility: hidden;
+   }
+}
