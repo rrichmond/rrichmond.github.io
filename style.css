@@ -234,3 +234,10 @@ a.deco-none {
     /* Label the data */
     #no-more-tables td:before { content: attr(data-title); }
 }
+
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+}
+
