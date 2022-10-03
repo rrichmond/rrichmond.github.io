@@ -36,6 +36,14 @@ h1, h2, h3, h4, h5, h6, p, a{
     font-family:Helvetica;
 }
 
+
+h5, h4{
+  margin-bottom: 0px;
+}
+p{
+  margin-top: 0px;
+}
+
 /* unvisited link */
 a:link {
     color: rgb(88,15,139);
@@ -132,9 +140,14 @@ h5 {
 
 
 /* Panel Stuff */
+/* .panel{ */
+/*     border:0!important; */
+/*     box-shadow: 0 0 2px rgba(0,0,0,.4); */
+/* } */
+
 .panel{
     border:0!important;
-    box-shadow: 0 0 2px rgba(0,0,0,.4);
+    box-shadow: 0 0 0px rgba(0,0,0,.4);
 }
 
 .panel-heading, .panel-footer{
@@ -163,8 +176,8 @@ h5 {
 /* Stuff for lists */
 
 ul {
-    list-style:none;
-    padding-left:10px;
+    list-style:square;
+    padding-left:20px;
 }​
 
 td, th {
